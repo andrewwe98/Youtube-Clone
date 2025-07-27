@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Video from './Pages/Video/Video';
 
