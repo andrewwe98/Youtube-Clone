@@ -15,7 +15,7 @@ import { BrowserRouter } from 'react-router-dom'
         <Route path='/' element={<Home/>} />
         <Route path='/video/:categoryId/:videoId' element={<Video/>} />
       </Routes>
-      <BrowserRouter basename="/Youtube-Clone"><App /></BrowserRouter>
+      
     </div>
      
   )
