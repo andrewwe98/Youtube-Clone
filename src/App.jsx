@@ -11,12 +11,12 @@ import Video from './Pages/Video/Video';
   return (
     <div>
       <Navbar/>
-      <HashRouter>
+      
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/video/:categoryId/:videoId' element={<Video/>} />
       </Routes>
-      </HashRouter>
+      
       
     </div>
      
