@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Youtube-Clone"><App /></BrowserRouter>
+    <BrowserRouter><App /></BrowserRouter>
 
     {/* --- IGNORE --- */}    \
 
