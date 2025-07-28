@@ -2,6 +2,7 @@
     background: #fff;
     width: 15%;
     height: 100vh;
+    overflow-y: auto;
     position: fixed;
     top: 0;
     padding-left: 2%;
@@ -56,4 +57,9 @@
 
 .small-sidebar h3{
     display: none;
+}
+
+.small-sidebar hr { 
+    width: 50%;
+    margin-bottom: 25px;
 }
