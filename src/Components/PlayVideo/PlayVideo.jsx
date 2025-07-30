@@ -9,7 +9,7 @@ import jack from '/home/threed112/Youtube-Clone/src/assets/jack.png'
 import user_profile from '/home/threed112/Youtube-Clone/src/assets/user_profile.jpg'
 const PlayVideo = () => {
   return (
-    <><div className='play-video'>
+    <div className='play-video'>
       <video src={video1} controls autoPlay muted></video>
       <h3>Best Youtube Channel to Learn web development</h3>
       <div className="play-video-info">
@@ -47,32 +47,32 @@ const PlayVideo = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="comment">
-        <img src={user_profile} alt="" />
-        <div>
-          <h3>Jack Nicholson <span>1 day ago</span></h3>
-          <p>Good job!</p>
-          <div className="comment-action">
-            <img src={like} alt="" />
-            <span>244</span>
-            <img src={dislike} alt="" />
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>Jack Nicholson <span>1 day ago</span></h3>
+            <p>Good job!</p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>Jack Nicholson <span>1 day ago</span></h3>
+            <p>Good job!</p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
           </div>
         </div>
       </div>
-    </div><div className="comment">
-        <img src={user_profile} alt="" />
-        <div>
-          <h3>Jack Nicholson <span>1 day ago</span></h3>
-          <p>Good job!</p>
-          <div className="comment-action">
-            <img src={like} alt="" />
-            <span>244</span>
-            <img src={dislike} alt="" />
-          </div>
-        </div>
-      </div></>
-    
+    </div>
   )
 }
 
