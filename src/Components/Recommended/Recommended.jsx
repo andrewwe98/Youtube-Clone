@@ -1,13 +1,13 @@
 import React from 'react'
 import './Recommended.css'
-import thumbnail1 from '/home/threed112/Youtube-Clone/src/assets/thumbnail1.png'
-import thumbnail2 from '/home/threed112/Youtube-Clone/src/assets/thumbnail2.png'
-import thumbnail3 from '/home/threed112/Youtube-Clone/src/assets/thumbnail3.png'
-import thumbnail4 from '/home/threed112/Youtube-Clone/src/assets/thumbnail4.png'
-import thumbnail5 from '/home/threed112/Youtube-Clone/src/assets/thumbnail5.png'
-import thumbnail6 from '/home/threed112/Youtube-Clone/src/assets/thumbnail6.png'
-import thumbnail7 from '/home/threed112/Youtube-Clone/src/assets/thumbnail7.png'
-import thumbnail8 from '/home/threed112/Youtube-Clone/src/assets/thumbnail8.png'
+import thumbnail1 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail1.png'
+import thumbnail2 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail2.png'
+import thumbnail3 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail3.png'
+import thumbnail4 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail4.png'
+import thumbnail5 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail5.png'
+import thumbnail6 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail6.png'
+import thumbnail7 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail7.png'
+import thumbnail8 from '/home/andrewwells/Desktop/youtube-clone/src/assets/thumbnail8.png'
 
 const Recommended = () => {
   return (
