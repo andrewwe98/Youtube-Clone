@@ -21,3 +21,16 @@
     font-size: 13px;
     margin-bottom: 5px;
 }
+
+
+@media (max-width: 768px) {
+    .recommended {
+        flex-basis: 100%;
+    }
+    .side-video-list img {
+        width: 100%;
+    }
+    .vid-info h4 {
+        font-size: 12px;
+    }
+}
