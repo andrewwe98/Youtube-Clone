@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Video from './Pages/Video/Video';
 import { useState } from 'react';
+import Search from './Components/Search/Search';
 
 
 
@@ -17,6 +18,7 @@ import { useState } from 'react';
       <Routes>
         <Route path='/' element={<Home sidebar={sidebar}/>} />
         <Route path='/video/:categoryId/:videoId' element={<Video/>} />
+        <Route path='/search/:searchQuery' element={<Search/>} />
       </Routes>
       
       
